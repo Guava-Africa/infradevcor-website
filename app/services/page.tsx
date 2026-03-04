@@ -95,7 +95,7 @@ export default function Services() {
             </section>
 
             {/* CTA */}
-            <section className="py-20 bg-gradient-to-r from-blue-600 to-lime-600 text-white text-center px-4">
+            <section className="py-20 bg-linear-to-r from-blue-600 to-lime-600 text-white text-center px-4">
                 <div className="max-w-2xl mx-auto">
                     <h2 className="text-3xl md:text-4xl font-bold mb-4">Ready to Start Your Project?</h2>
                     <p className="text-xl mb-8 opacity-90">Contact us today for a free consultation and quote</p>

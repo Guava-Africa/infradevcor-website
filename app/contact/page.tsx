@@ -27,8 +27,7 @@ export default function Contact() {
                             <div className="text-4xl mb-4">📍</div>
                             <h3 className="text-xl font-semibold text-blue-600 mb-3">Address</h3>
                             <p className="text-gray-600 leading-relaxed">
-                                55 Lawley Drivenue<br />
-                                Belvedere<br />
+                                55 Lawley Drive, Belvedere<br />
                                 Harare
                             </p>
                         </div>

@@ -54,8 +54,8 @@ export default function Footer() {
                     <div>
                         <h4 className="font-semibold text-lg mb-4">Contact</h4>
                         <ul className="space-y-2 text-blue-200">
-                            <li>55 Lawley Drive</li>
-                            <li>Belvedere</li>
+                            <li>55 Lawley Drive, Belvedere</li>
+                            <li></li>
                             <li>Harare</li>
                             <li>0242-257156</li>
                             <li>info@infradevcor.com</li>

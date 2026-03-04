@@ -24,7 +24,7 @@ export default function About() {
             <div className="h-20"></div>
 
             {/* Page Header */}
-            <section className="bg-gradient-to-r from-blue-600 to-lime-600 text-white py-20 px-4 text-center">
+            <section className="bg-linear-to-r from-blue-600 to-lime-600 text-white py-20 px-4 text-center">
                 <div className="max-w-3xl mx-auto">
                     <h1 className="text-4xl md:text-5xl font-bold mb-4">About Infradevcor</h1>
                     <p className="text-xl opacity-90">
@@ -77,7 +77,7 @@ export default function About() {
                         sustainability, durability, and modernity, ensuring client satisfaction and environmental
                         stewardship are at the forefront of everything we do."
                     </p>
-                    <div className="w-24 h-1 bg-gradient-to-r from-blue-600 to-lime-600 mx-auto"></div>
+                    <div className="w-24 h-1 bg-linear-to-r from-blue-600 to-lime-600 mx-auto"></div>
                 </div>
             </section>
 
@@ -121,7 +121,7 @@ export default function About() {
             </section> */}
 
             {/* CTA */}
-            <section className="py-20 bg-gradient-to-r from-blue-900 to-blue-800 text-white text-center px-4">
+            <section className="py-20 bg-linear-to-r from-blue-900 to-blue-800 text-white text-center px-4">
                 <div className="max-w-2xl mx-auto">
                     <h2 className="text-3xl md:text-4xl font-bold mb-4">Want to work with us?</h2>
                     <p className="text-xl mb-8 opacity-90">Let's discuss your next project and how we can bring your vision to life</p>
