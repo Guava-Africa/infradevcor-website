@@ -46,9 +46,9 @@ export default function Navbar() {
                                 {link.label}
                             </Link>
                         ))}
-                        <button className="bg-lime-600 text-white px-5 py-2.5 rounded-lg font-semibold text-sm hover:bg-lime-700 transition">
+                        {/* <button className="bg-lime-600 text-white px-5 py-2.5 rounded-lg font-semibold text-sm hover:bg-lime-700 transition">
                             Get Quote
-                        </button>
+                        </button> */}
                     </div>
 
                     {/* Mobile menu button */}
@@ -78,9 +78,9 @@ export default function Navbar() {
                                 {link.label}
                             </Link>
                         ))}
-                        <button className="bg-lime-600 text-white px-4 py-3 rounded-lg font-semibold text-base mt-2">
+                        {/* <button className="bg-lime-600 text-white px-4 py-3 rounded-lg font-semibold text-base mt-2">
                             Get Quote
-                        </button>
+                        </button> */}
                     </div>
                 </div>
             )}
