@@ -2,6 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
+import Avonlea from '@/public/avonlea.png';
 
 export default function Projects() {
     const projects = [
@@ -20,7 +21,7 @@ export default function Projects() {
             location: 'Avonlea',
             year: '2025',
             color: 'bg-lime-600',
-            image: 'https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+            image: Avonlea,
             description: `A sustainable residential complex with 120 stands
             measuring an average of 1000sqm featuring energy- efficient designs and some
             solar designs.`
