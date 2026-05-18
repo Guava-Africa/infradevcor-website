@@ -65,7 +65,7 @@ export default function Footer() {
 
                 {/* Copyright */}
                 <div className="border-t border-blue-800 pt-8 text-center text-blue-300">
-                    <p>© {currentYear} Infradevcor. All rights reserved.</p>
+                    <p>© {currentYear} Infradevcor. All rights reserved.</p> <Link href="https://africapaciti.com" target="_blank" className="hover:text-blue-600">An Africapaciti Company</Link>
                 </div>
             </div>
         </footer>

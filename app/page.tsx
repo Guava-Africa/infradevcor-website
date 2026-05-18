@@ -42,15 +42,28 @@ export default function Home() {
 
       {/* Hero Section */}
       <section className="relative h-[60vh] w-full">
-        <Image
+        {/* <Image
           src="https://images.pexels.com/photos/5611713/pexels-photo-5611713.jpeg?_gl=1*338ymb*_ga*MTg3OTg2OTc1OC4xNzcyNjEyNjQ0*_ga_8JE65Q40S6*czE3NzI2MTI2NDMkbzEkZzEkdDE3NzI2MTM3MjIkajckbDAkaDA."
           alt="Construction site with crane"
           fill
           className="object-cover"
           unoptimized={true}
           priority
-        />
-        <div className="absolute inset-0 bg-black/50" />
+        /> */}
+
+        <video
+          autoPlay
+          muted
+          loop
+          playsInline
+          className="absolute top-0 left-0 w-full h-full object-cover"
+        >
+          <source
+            src="/construction.webm"
+            type="video/webm"
+          />
+        </video>
+        <div className="absolute inset-0 bg-black/58" />
 
         <div className="absolute inset-0 flex items-center justify-center text-center px-4">
           <div className="max-w-3xl">
