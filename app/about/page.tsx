@@ -14,14 +14,14 @@ export default function About() {
 
     const leadershipTeam = {
         chairman: {
-            name: 'Eng. Tafadzwa Muguti',
-            title: 'Group Chairman',
+            name: 'Mrs. Duduzile Shinya',
+            title: 'Chairperson',
             message: '"At Infradevcor, we believe that infrastructure is the backbone of African progress. Our commitment to excellence, integrity, and innovation drives us to build not just structures, but lasting relationships with our clients and communities across the continent. As we embark on this journey, I am confident that our dedicated team will set new benchmarks in the construction industry, delivering projects that stand the test of time while contributing to sustainable development across Africa."',
             // PLACEHOLDER IMAGE - Replace with actual image
-            image: 'https://placehold.co/800x1000/1a2b3c/white?text=Chairman+Photo',
+            image: 'Mrs Duduzile Ngwenya.jpeg',
         },
         gm: {
-            name: 'Thabo Mbeki',
+            name: 'Thabo Sithole',
             title: 'General Manager',
             role: 'General Manager - Operations',
             experience: '22+ years',
@@ -30,33 +30,33 @@ export default function About() {
             bio: 'Leading overall operations with expertise in large-scale infrastructure projects across East and West Africa'
         },
         managers: [
-            { 
-                name: 'Amina Diallo', 
-                role: 'Project Manager', 
+            {
+                name: 'Amina Diallo',
+                role: 'Project Manager',
                 experience: '12+ years',
                 // PLACEHOLDER IMAGE - Replace with actual image
                 image: 'https://placehold.co/800x800/34495e/white?text=Amina+Diallo',
                 specialization: 'Road & Highway Projects'
             },
-            { 
-                name: 'Musa Keita', 
-                role: 'Site Manager', 
+            {
+                name: 'Musa Keita',
+                role: 'Site Manager',
                 experience: '10+ years',
                 // PLACEHOLDER IMAGE - Replace with actual image
                 image: 'https://placehold.co/800x800/2c3e50/white?text=Musa+Keita',
                 specialization: 'Water Management'
             },
-            { 
-                name: 'Zanele Ndlovu', 
-                role: 'Safety Manager', 
+            {
+                name: 'Zanele Ndlovu',
+                role: 'Safety Manager',
                 experience: '8+ years',
                 // PLACEHOLDER IMAGE - Replace with actual image
                 image: 'https://placehold.co/800x800/34495e/white?text=Zanele+Ndlovu',
                 specialization: 'HSE & Compliance'
             },
-            { 
-                name: 'Oluwaseun Adebayo', 
-                role: 'Quality Manager', 
+            {
+                name: 'Oluwaseun Adebayo',
+                role: 'Quality Manager',
                 experience: '11+ years',
                 // PLACEHOLDER IMAGE - Replace with actual image
                 image: 'https://placehold.co/800x800/2c3e50/white?text=Oluwaseun+Adebayo',
@@ -109,7 +109,7 @@ export default function About() {
                             fill
                             className="object-cover"
                             unoptimized={true}
-                            
+
                         />
                     </div>
                 </div>
